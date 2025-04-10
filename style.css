@@ -1,0 +1,267 @@
+/*BODY*/
+body { 
+    width:100%; 
+    height:100%; 
+    margin:0; 
+    padding:0; 
+}
+
+header, main {
+    background-color: black;
+}
+
+header h1, header h2, header h3, header p {
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+main h1, main h2, main h3, main p {
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* THE SCROLLBAR, damn I hate reading */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(10, 10, 10);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(22, 22, 22);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(75, 75, 75);
+}
+
+/*HEADER*/
+header {
+    display: flex;
+    justify-content: space-between;
+    direction: row;
+    align-items: center;
+    height: 100%;
+}
+
+.intersection a {
+    padding: 25px; 
+    font-size: 15pt;
+    text-decoration: none;
+    font-family: "Gill Sans", sans-serif;
+    font-weight: bold;
+    color: rgb(223, 223, 223);
+    transition: all 0.5s ease;
+}
+
+.intersection a:hover {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: rgb(29, 29, 29);
+}
+
+.logo {
+    margin-left: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: rgb(245, 245, 245);
+}
+
+/* -----> MAIN <----- */
+main {
+    padding-bottom: 35px;
+}
+.hr1 {
+    margin-top: -2px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    height: 1px;
+}
+
+.tittle {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    font-size: 40pt;
+}
+
+.me {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -47px;
+}
+
+.me1 {
+    margin-right: 5px;
+}
+
+.me2 {
+    margin-left: 5px;
+    color: rgb(255, 58, 58);
+}
+
+.tanggal {
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 30px;
+}
+
+.RIOT, figure p{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1000px;
+    border-radius: 50px;
+}
+
+figure p { 
+    color: rgb(223, 223, 223);
+    font-size: 15pt;
+}
+/* ----->  ARTICLE  <----- */
+.p {
+    width: 100%;
+}
+
+.p h1, .p p {
+    /* text-indent: 30px; */
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+.p h1 {
+    font-size: 23pt;
+    margin-bottom: -10px;
+}
+
+.p p {
+    font-size: 18pt;
+    text-align: justify;
+}
+/* ----->  DAFTAR PUSTAKA  <----- */
+.daftar-pustaka {
+    color: white;
+    width: 100%;
+}
+
+.daftar-pustaka h1, .daftar-pustaka ul {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.ul h1 {
+    font-size: 23pt;
+}
+
+.ul li, .ul a {
+    font-size: 18pt;
+}
+
+/* ----->  FOOTER  <----- */
+.terkait {
+    text-indent: 37px;
+    font-size: 20pt;
+    font-family:  medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight:600;
+    background-color: rgb(14, 14, 14);
+    color: white;
+    padding-top: 20px;
+    margin: 0;
+    margin-bottom: -14px;
+}
+/* ----->  Box01-Box02  <----- */
+.recomendation {
+    background-color: rgb(14, 14, 14);
+    padding: 30px;
+    display: flex; 
+    /* justify-content: space-around; */
+    align-items: center;
+    flex-direction: row; 
+    width: auto;
+    overflow-x: scroll;
+}
+
+.recomendation-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(8, 8, 8);
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+    min-width: 390px;
+    max-width: 450px;
+}
+
+.recomendation-box:hover {
+    background-color: rgb(2, 2, 2);
+    transform: scale(1.05);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.recomendation-box h1:hover {
+    color:white;
+}
+
+.logo-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.persentage1 {
+    width: 68%;
+}
+
+.persentage2 {
+    width: 32%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.persentage2 img {
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.BBC {
+    background-color: rgb(255, 255, 255);
+    width: 60px;
+    border-radius: 20px;
+}
+.pasuratan {
+    background-color: rgb(255, 255, 255);
+    width: 65px;
+    height: 60px;
+    border-radius: 20px;
+}
+
+.logo-box p {
+    color: rgb(196, 196, 196);
+    font-size: 14pt;
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+.recomendation-box h1 {
+    color: rgb(219, 219, 219);
+    font-size: 14pt;
+    font-weight: bold;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+/* ----->  Box03  <----- */
+.tirtoid {
+    width: 60px;
+    border-radius: 20px;
+}
