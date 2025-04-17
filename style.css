@@ -75,7 +75,7 @@ main {
     padding-bottom: 35px;
 }
 .hr1 {
-    margin-top: -2px;
+    margin-top: -3px;
     border-color: rgb(255, 255, 255);
     background-color: rgb(255, 255, 255);
     height: 1px;
@@ -207,10 +207,6 @@ figure p {
     cursor: pointer;
 }
 
-.recomendation-box h1:hover {
-    color:white;
-}
-
 .logo-box {
     display: flex;
     flex-direction: row;
@@ -264,4 +260,90 @@ figure p {
 .tirtoid {
     width: 60px;
     border-radius: 20px;
+}
+
+/* Mobile UI*/
+/*(With this knowledge I summon, the master of all devices, between pc, labtop, and mobile. It alone stand as tool of covienience and thus, I shall summon @media!!!!)*/
+@media (max-width: 500px) {
+    /* Header */
+    .logo {
+        font-size: 17px;
+    }
+
+    .intersection a {
+        font-size: 12px !important;
+        padding: 6px !important;
+    }
+
+    /* Main */
+    .tittle {
+        font-size: 14pt !important;
+        margin-bottom: 38px !important;
+    }
+
+    .me , .tanggal{
+        font-size: 9pt !important;
+    }
+
+    .RIOT {
+        margin-top: -10px;
+        max-width: auto;
+        min-width: 240px;
+        max-height: auto;
+        min-height: 120px;
+        border-radius: 20px;
+      }
+
+    .img-text {
+        font-size: 7px;
+    }
+
+    /* Daftar Pustaka */
+    .p h1, .daftar-pustaka h1 {
+        margin-bottom: -3px;
+        font-size: 15px !important;
+    }
+
+    .p p, li {
+        font-size: 12px !important;
+    }
+
+    .terkait {
+        font-size: 15px !important;
+    }
+
+    /* Footer */
+    .recomendation {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .recomendation-box {
+        margin-bottom: 20px;
+    }
+
+    /* Box content */
+    .persentage1 h1 {
+        font-size: 14px !important;
+    }
+
+    .persentage2 img {
+        width: 90px;
+    }
+
+    .logo-box p {
+        font-size: 16px;
+    }
+
+    /* News Company Logo */
+    .BBC, .tirtoid {
+        width: 35px;
+        height: 35px;
+    }
+
+    .pasuratan {
+        width: 40px;
+        height: 40px;
+    }
 }
