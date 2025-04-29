@@ -189,6 +189,7 @@ figure p {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     padding: 10px;
     margin-left: 10px;
     margin-right: 10px;
@@ -212,7 +213,7 @@ figure p {
     flex-direction: row;
 }
 
-.persentage1 {
+/* .persentage1 {
     width: 68%;
 }
 
@@ -221,7 +222,7 @@ figure p {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .persentage2 img {
     width: 120px;
@@ -315,12 +316,13 @@ figure p {
     /* Footer */
     .recomendation {
         display: flex;
+        justify-content: space-between;
         flex-wrap: wrap;
         flex-direction: column;
         overflow-x:initial;
         padding: 0;
-        padding-left: 7px;
-        padding-right: 7px;
+        padding-left: 3px;
+        padding-right: 3px;
         padding-top: 20px;
     }
 
@@ -329,15 +331,17 @@ figure p {
         padding-right: 4px;
         margin-left: 0;
         margin-right: 0;
+        padding: 5px;
     }
 
     /* Box content */
     .persentage1 h1 {
-        font-size: 14px !important;
+        font-size: 12px !important;
     }
 
     .persentage2 img {
-        width: 90px;
+        min-width: 7px;
+        max-width: 80px;
     }
 
     .logo-box p {
@@ -355,4 +359,3 @@ figure p {
         height: 40px;
     }
 }
-
